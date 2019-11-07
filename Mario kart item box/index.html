@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Item Box Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1>Item Box
+    </h1>
+
+    <!--  Instructions -->
+    <p>Click the picture to simulate opening the box. In theory there is a 25% chance of getting a banana, a 25% chance
+      of getting a green shell, a 15% chance of getting a star, a 15% chance of getting a golden mushroom
+      a 20% chance of getting a bullet bill.</p>
+
+    <!-- Image & Results  -->
+    <img id="mainImg" src="images/item_box.png" style="width: 300px; height: 300px; text-align: center;">
+    <p>Racer Position: <input id="position" type="text"><button id="pos-Btn">Enter</button><br></p>
+    <p><button id="plus5">+5</button> <button id="until10bulletbill">Until 10 Bullet Bill</button></p>
+    <p>
+    <p>
+      <strong>TOTALS -> </strong>
+      Banana: <span id="banana">0</span> |
+      Green Shell: <span id="shell">0</span> |
+      Star: <span id="star">0</span> |
+      Golden Mushroom: <span id="golden">0</span> |
+      Bullet Bill: <span id="bullet">0</span> 
+    </p>
+    <hr>
+
+    
+    <p id="results"></p>
+  </div>
+
+
+  <!--  LOAD JAVASCRIPT -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
